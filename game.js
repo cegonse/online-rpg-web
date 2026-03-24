@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmp0uxva8qw.js
+// include: /tmp/tmp7mp26rfy.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -200,25 +200,25 @@ Module['FS_createPath']("/", "resources", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/dance1.glb", "start": 2239928, "end": 2810124}, {"filename": "/resources/death.glb", "start": 2810124, "end": 2905152}, {"filename": "/resources/friendly_target.png", "start": 2905152, "end": 2915362}, {"filename": "/resources/hit.glb", "start": 2915362, "end": 2989674}, {"filename": "/resources/idle.glb", "start": 2989674, "end": 3095250}, {"filename": "/resources/kick1.glb", "start": 3095250, "end": 3189498}, {"filename": "/resources/kick2.glb", "start": 3189498, "end": 3271114}, {"filename": "/resources/revive.glb", "start": 3271114, "end": 3440690}, {"filename": "/resources/running.glb", "start": 3440690, "end": 3513986}, {"filename": "/resources/test_level.glb", "start": 3513986, "end": 3522234}, {"filename": "/resources/unfriendly_target.png", "start": 3522234, "end": 3533447}, {"filename": "/resources/walking.glb", "start": 3533447, "end": 8796199}], "remote_package_size": 8796199});
+    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/drinking.glb", "start": 3194868, "end": 3281736}, {"filename": "/resources/friendly_target.png", "start": 3281736, "end": 3291946}, {"filename": "/resources/hit.glb", "start": 3291946, "end": 3366258}, {"filename": "/resources/idle.glb", "start": 3366258, "end": 3471834}, {"filename": "/resources/idle_affected_state.glb", "start": 3471834, "end": 3687854}, {"filename": "/resources/kick1.glb", "start": 3687854, "end": 3782102}, {"filename": "/resources/kick2.glb", "start": 3782102, "end": 3863718}, {"filename": "/resources/revive.glb", "start": 3863718, "end": 4033294}, {"filename": "/resources/running.glb", "start": 4033294, "end": 4106590}, {"filename": "/resources/test_level.glb", "start": 4106590, "end": 4114838}, {"filename": "/resources/unfriendly_target.png", "start": 4114838, "end": 4126051}, {"filename": "/resources/walk_affected_state.glb", "start": 4126051, "end": 4268015}, {"filename": "/resources/walking.glb", "start": 4268015, "end": 9530767}], "remote_package_size": 9530767});
 
   })();
 
-// end include: /tmp/tmp0uxva8qw.js
-// include: /tmp/tmp3fyvntl1.js
+// end include: /tmp/tmp7mp26rfy.js
+// include: /tmp/tmp9h94fes0.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp3fyvntl1.js
-// include: /tmp/tmptgd_zjv6.js
+  // end include: /tmp/tmp9h94fes0.js
+// include: /tmp/tmp__lv8k_s.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmptgd_zjv6.js
+  // end include: /tmp/tmp__lv8k_s.js
 
 
 var arguments_ = [];
@@ -10037,48 +10037,48 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  127648: () => { if (document.fullscreenElement) return 1; },  
- 127694: () => { return document.getElementById('canvas').width; },  
- 127746: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 127814: () => { document.exitFullscreen(); },  
- 127841: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 127914: () => { if (document.fullscreenElement) return 1; },  
- 127960: () => { return document.getElementById('canvas').width; },  
- 128012: () => { return screen.width; },  
- 128037: () => { document.exitFullscreen(); },  
- 128064: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 128197: () => { return window.innerWidth; },  
- 128223: () => { return window.innerHeight; },  
- 128250: () => { if (document.fullscreenElement) return 1; },  
- 128296: () => { return document.getElementById('canvas').width; },  
- 128348: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 128416: () => { if (document.fullscreenElement) return 1; },  
- 128462: () => { return document.getElementById('canvas').width; },  
- 128514: () => { return screen.width; },  
- 128539: () => { return window.innerWidth; },  
- 128565: () => { return window.innerHeight; },  
- 128592: () => { if (document.fullscreenElement) return 1; },  
- 128638: () => { return document.getElementById('canvas').width; },  
- 128690: () => { return screen.width; },  
- 128715: () => { document.exitFullscreen(); },  
- 128742: () => { if (document.fullscreenElement) return 1; },  
- 128788: () => { return document.getElementById('canvas').width; },  
- 128840: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 128908: () => { document.exitFullscreen(); },  
- 128935: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 128993: () => { return screen.width; },  
- 129018: () => { return screen.height; },  
- 129044: () => { return window.screenX; },  
- 129071: () => { return window.screenY; },  
- 129098: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 129151: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 129222: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 129279: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 129535: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 129606: () => { if (document.fullscreenElement) return 1; },  
- 129652: () => { return window.innerWidth; },  
- 129678: () => { return window.innerHeight; },  
- 129705: () => { if (document.pointerLockElement) return 1; }
+  127760: () => { if (document.fullscreenElement) return 1; },  
+ 127806: () => { return document.getElementById('canvas').width; },  
+ 127858: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 127926: () => { document.exitFullscreen(); },  
+ 127953: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 128026: () => { if (document.fullscreenElement) return 1; },  
+ 128072: () => { return document.getElementById('canvas').width; },  
+ 128124: () => { return screen.width; },  
+ 128149: () => { document.exitFullscreen(); },  
+ 128176: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 128309: () => { return window.innerWidth; },  
+ 128335: () => { return window.innerHeight; },  
+ 128362: () => { if (document.fullscreenElement) return 1; },  
+ 128408: () => { return document.getElementById('canvas').width; },  
+ 128460: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 128528: () => { if (document.fullscreenElement) return 1; },  
+ 128574: () => { return document.getElementById('canvas').width; },  
+ 128626: () => { return screen.width; },  
+ 128651: () => { return window.innerWidth; },  
+ 128677: () => { return window.innerHeight; },  
+ 128704: () => { if (document.fullscreenElement) return 1; },  
+ 128750: () => { return document.getElementById('canvas').width; },  
+ 128802: () => { return screen.width; },  
+ 128827: () => { document.exitFullscreen(); },  
+ 128854: () => { if (document.fullscreenElement) return 1; },  
+ 128900: () => { return document.getElementById('canvas').width; },  
+ 128952: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 129020: () => { document.exitFullscreen(); },  
+ 129047: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
+ 129105: () => { return screen.width; },  
+ 129130: () => { return screen.height; },  
+ 129156: () => { return window.screenX; },  
+ 129183: () => { return window.screenY; },  
+ 129210: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 129263: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 129334: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 129391: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 129647: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 129718: () => { if (document.fullscreenElement) return 1; },  
+ 129764: () => { return window.innerWidth; },  
+ 129790: () => { return window.innerHeight; },  
+ 129817: () => { if (document.pointerLockElement) return 1; }
 };
 
 // Imports from the Wasm binary.
