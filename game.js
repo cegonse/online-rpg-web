@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpbf2h_8ny.js
+// include: /tmp/tmpe0rn7nqy.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -203,25 +203,25 @@ Module['FS_createPath']("/resources/rooms/room01", "objects", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/drinking.glb", "start": 3194868, "end": 3281736}, {"filename": "/resources/friendly_target.png", "start": 3281736, "end": 3291946}, {"filename": "/resources/gui_atlas.png", "start": 3291946, "end": 3322314}, {"filename": "/resources/hit.glb", "start": 3322314, "end": 3396626}, {"filename": "/resources/idle.glb", "start": 3396626, "end": 3502202}, {"filename": "/resources/idle_affected_state.glb", "start": 3502202, "end": 3718222}, {"filename": "/resources/kick1.glb", "start": 3718222, "end": 3812470}, {"filename": "/resources/kick2.glb", "start": 3812470, "end": 3894086}, {"filename": "/resources/revive.glb", "start": 3894086, "end": 4063662}, {"filename": "/resources/rooms/room01/floor.obj", "start": 4063662, "end": 4081331}, {"filename": "/resources/rooms/room01/level.bin", "start": 4081331, "end": 4081867}, {"filename": "/resources/rooms/room01/level.json", "start": 4081867, "end": 4082800}, {"filename": "/resources/rooms/room01/lights.bin", "start": 4082800, "end": 4181136}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 4181136, "end": 5206332}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 5206332, "end": 5355804}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 5355804, "end": 5433672}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 5433672, "end": 5640108}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 5640108, "end": 5768752}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 5768752, "end": 6280788}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 6280788, "end": 6560544}, {"filename": "/resources/running.glb", "start": 6560544, "end": 6633840}, {"filename": "/resources/stand_from_critical.glb", "start": 6633840, "end": 6738392}, {"filename": "/resources/test_level.glb", "start": 6738392, "end": 6746640}, {"filename": "/resources/unfriendly_target.png", "start": 6746640, "end": 6757853}, {"filename": "/resources/walk_affected_state.glb", "start": 6757853, "end": 6899817}, {"filename": "/resources/walking.glb", "start": 6899817, "end": 12162569}], "remote_package_size": 12162569});
+    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/drinking.glb", "start": 3194868, "end": 3281736}, {"filename": "/resources/font.ttf", "start": 3281736, "end": 3324360}, {"filename": "/resources/friendly_target.png", "start": 3324360, "end": 3334570}, {"filename": "/resources/gui_atlas.png", "start": 3334570, "end": 3364938}, {"filename": "/resources/hit.glb", "start": 3364938, "end": 3439250}, {"filename": "/resources/idle.glb", "start": 3439250, "end": 3544826}, {"filename": "/resources/idle_affected_state.glb", "start": 3544826, "end": 3760846}, {"filename": "/resources/kick1.glb", "start": 3760846, "end": 3855094}, {"filename": "/resources/kick2.glb", "start": 3855094, "end": 3936710}, {"filename": "/resources/revive.glb", "start": 3936710, "end": 4106286}, {"filename": "/resources/rooms/room01/floor.obj", "start": 4106286, "end": 4123872}, {"filename": "/resources/rooms/room01/level.bin", "start": 4123872, "end": 4124484}, {"filename": "/resources/rooms/room01/level.json", "start": 4124484, "end": 4125562}, {"filename": "/resources/rooms/room01/lights.bin", "start": 4125562, "end": 4223898}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 4223898, "end": 4790066}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 4790066, "end": 4980210}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 4980210, "end": 5057942}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 5057942, "end": 5258518}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 5258518, "end": 5387162}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 5387162, "end": 5905258}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 5905258, "end": 6180590}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 6180590, "end": 6285614}, {"filename": "/resources/running.glb", "start": 6285614, "end": 6358910}, {"filename": "/resources/stand_from_critical.glb", "start": 6358910, "end": 6463462}, {"filename": "/resources/test_level.glb", "start": 6463462, "end": 6471710}, {"filename": "/resources/unfriendly_target.png", "start": 6471710, "end": 6482923}, {"filename": "/resources/walk_affected_state.glb", "start": 6482923, "end": 6624887}, {"filename": "/resources/walking.glb", "start": 6624887, "end": 11887639}], "remote_package_size": 11887639});
 
   })();
 
-// end include: /tmp/tmpbf2h_8ny.js
-// include: /tmp/tmpk75fifnk.js
+// end include: /tmp/tmpe0rn7nqy.js
+// include: /tmp/tmpzpxsd4oo.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpk75fifnk.js
-// include: /tmp/tmprrm3ggd4.js
+  // end include: /tmp/tmpzpxsd4oo.js
+// include: /tmp/tmp_x659m1e.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmprrm3ggd4.js
+  // end include: /tmp/tmp_x659m1e.js
 
 
 var arguments_ = [];
@@ -10040,48 +10040,48 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  128655: () => { if (document.fullscreenElement) return 1; },  
- 128701: () => { return document.getElementById('canvas').width; },  
- 128753: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 128821: () => { document.exitFullscreen(); },  
- 128848: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 128921: () => { if (document.fullscreenElement) return 1; },  
- 128967: () => { return document.getElementById('canvas').width; },  
- 129019: () => { return screen.width; },  
- 129044: () => { document.exitFullscreen(); },  
- 129071: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 129204: () => { return window.innerWidth; },  
- 129230: () => { return window.innerHeight; },  
- 129257: () => { if (document.fullscreenElement) return 1; },  
- 129303: () => { return document.getElementById('canvas').width; },  
- 129355: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 129423: () => { if (document.fullscreenElement) return 1; },  
- 129469: () => { return document.getElementById('canvas').width; },  
- 129521: () => { return screen.width; },  
- 129546: () => { return window.innerWidth; },  
- 129572: () => { return window.innerHeight; },  
- 129599: () => { if (document.fullscreenElement) return 1; },  
- 129645: () => { return document.getElementById('canvas').width; },  
- 129697: () => { return screen.width; },  
- 129722: () => { document.exitFullscreen(); },  
- 129749: () => { if (document.fullscreenElement) return 1; },  
- 129795: () => { return document.getElementById('canvas').width; },  
- 129847: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 129915: () => { document.exitFullscreen(); },  
- 129942: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 130000: () => { return screen.width; },  
- 130025: () => { return screen.height; },  
- 130051: () => { return window.screenX; },  
- 130078: () => { return window.screenY; },  
- 130105: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 130158: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 130229: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 130286: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 130542: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 130613: () => { if (document.fullscreenElement) return 1; },  
- 130659: () => { return window.innerWidth; },  
- 130685: () => { return window.innerHeight; },  
- 130712: () => { if (document.pointerLockElement) return 1; }
+  136911: () => { if (document.fullscreenElement) return 1; },  
+ 136957: () => { return document.getElementById('canvas').width; },  
+ 137009: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 137077: () => { document.exitFullscreen(); },  
+ 137104: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 137177: () => { if (document.fullscreenElement) return 1; },  
+ 137223: () => { return document.getElementById('canvas').width; },  
+ 137275: () => { return screen.width; },  
+ 137300: () => { document.exitFullscreen(); },  
+ 137327: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 137460: () => { return window.innerWidth; },  
+ 137486: () => { return window.innerHeight; },  
+ 137513: () => { if (document.fullscreenElement) return 1; },  
+ 137559: () => { return document.getElementById('canvas').width; },  
+ 137611: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 137679: () => { if (document.fullscreenElement) return 1; },  
+ 137725: () => { return document.getElementById('canvas').width; },  
+ 137777: () => { return screen.width; },  
+ 137802: () => { return window.innerWidth; },  
+ 137828: () => { return window.innerHeight; },  
+ 137855: () => { if (document.fullscreenElement) return 1; },  
+ 137901: () => { return document.getElementById('canvas').width; },  
+ 137953: () => { return screen.width; },  
+ 137978: () => { document.exitFullscreen(); },  
+ 138005: () => { if (document.fullscreenElement) return 1; },  
+ 138051: () => { return document.getElementById('canvas').width; },  
+ 138103: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 138171: () => { document.exitFullscreen(); },  
+ 138198: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
+ 138256: () => { return screen.width; },  
+ 138281: () => { return screen.height; },  
+ 138307: () => { return window.screenX; },  
+ 138334: () => { return window.screenY; },  
+ 138361: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 138414: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 138485: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 138542: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 138798: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 138869: () => { if (document.fullscreenElement) return 1; },  
+ 138915: () => { return window.innerWidth; },  
+ 138941: () => { return window.innerHeight; },  
+ 138968: () => { if (document.pointerLockElement) return 1; }
 };
 function getQueryParam(key) { const k = UTF8ToString(key); const v = new URLSearchParams(window.location.search).get(k); if (v === null) return 0; return stringToNewUTF8(v); }
 function isMobile() { const isMobileUA = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent); const isHighDPI = window.devicePixelRatio >= 2; const isSmallScreen = window.innerWidth < 768; return isMobileUA || (isHighDPI && isSmallScreen); }
