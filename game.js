@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpcop7ob1m.js
+// include: /tmp/tmplqv6zcq6.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -203,25 +203,25 @@ Module['FS_createPath']("/resources/rooms/room01", "objects", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/drinking.glb", "start": 3194868, "end": 3281736}, {"filename": "/resources/font.ttf", "start": 3281736, "end": 3324360}, {"filename": "/resources/friendly_target.png", "start": 3324360, "end": 3334570}, {"filename": "/resources/gui_atlas.png", "start": 3334570, "end": 3364938}, {"filename": "/resources/hit.glb", "start": 3364938, "end": 3439250}, {"filename": "/resources/idle.glb", "start": 3439250, "end": 3544826}, {"filename": "/resources/idle_affected_state.glb", "start": 3544826, "end": 3760846}, {"filename": "/resources/kick1.glb", "start": 3760846, "end": 3855094}, {"filename": "/resources/kick2.glb", "start": 3855094, "end": 3936710}, {"filename": "/resources/revive.glb", "start": 3936710, "end": 4106286}, {"filename": "/resources/rooms/room01/floor.obj", "start": 4106286, "end": 4123872}, {"filename": "/resources/rooms/room01/level.bin", "start": 4123872, "end": 4124484}, {"filename": "/resources/rooms/room01/level.json", "start": 4124484, "end": 4125564}, {"filename": "/resources/rooms/room01/lights.bin", "start": 4125564, "end": 4223900}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 4223900, "end": 4498952}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 4498952, "end": 4688064}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 4688064, "end": 4773236}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 4773236, "end": 5093620}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 5093620, "end": 5222264}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 5222264, "end": 5725360}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 5725360, "end": 6198576}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 6198576, "end": 6514856}, {"filename": "/resources/running.glb", "start": 6514856, "end": 6588152}, {"filename": "/resources/stand_from_critical.glb", "start": 6588152, "end": 6692704}, {"filename": "/resources/test_level.glb", "start": 6692704, "end": 6700952}, {"filename": "/resources/unfriendly_target.png", "start": 6700952, "end": 6712165}, {"filename": "/resources/walk_affected_state.glb", "start": 6712165, "end": 6854129}, {"filename": "/resources/walking.glb", "start": 6854129, "end": 12116881}], "remote_package_size": 12116881});
+    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/drinking.glb", "start": 3194868, "end": 3281736}, {"filename": "/resources/font.ttf", "start": 3281736, "end": 3324360}, {"filename": "/resources/friendly_target.png", "start": 3324360, "end": 3334570}, {"filename": "/resources/gui_atlas.png", "start": 3334570, "end": 3364938}, {"filename": "/resources/hit.glb", "start": 3364938, "end": 3439250}, {"filename": "/resources/idle.glb", "start": 3439250, "end": 3544826}, {"filename": "/resources/idle_affected_state.glb", "start": 3544826, "end": 3760846}, {"filename": "/resources/kick1.glb", "start": 3760846, "end": 3855094}, {"filename": "/resources/kick2.glb", "start": 3855094, "end": 3936710}, {"filename": "/resources/revive.glb", "start": 3936710, "end": 4106286}, {"filename": "/resources/rooms/room01/floor.obj", "start": 4106286, "end": 4124633}, {"filename": "/resources/rooms/room01/level.bin", "start": 4124633, "end": 4125397}, {"filename": "/resources/rooms/room01/level.json", "start": 4125397, "end": 4126747}, {"filename": "/resources/rooms/room01/lights.bin", "start": 4126747, "end": 4225083}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 4225083, "end": 4500135}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 4500135, "end": 4689247}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 4689247, "end": 4774419}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 4774419, "end": 5094803}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 5094803, "end": 5223447}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 5223447, "end": 5726543}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 5726543, "end": 6199759}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 6199759, "end": 6527459}, {"filename": "/resources/rooms/room01/objects/obj_room08.glb", "start": 6527459, "end": 6617571}, {"filename": "/resources/rooms/room01/objects/obj_room09.glb", "start": 6617571, "end": 6680055}, {"filename": "/resources/running.glb", "start": 6680055, "end": 6753351}, {"filename": "/resources/stand_from_critical.glb", "start": 6753351, "end": 6857903}, {"filename": "/resources/test_level.glb", "start": 6857903, "end": 6866151}, {"filename": "/resources/unfriendly_target.png", "start": 6866151, "end": 6877364}, {"filename": "/resources/walk_affected_state.glb", "start": 6877364, "end": 7019328}, {"filename": "/resources/walking.glb", "start": 7019328, "end": 12282080}], "remote_package_size": 12282080});
 
   })();
 
-// end include: /tmp/tmpcop7ob1m.js
-// include: /tmp/tmp_xjkezg5.js
+// end include: /tmp/tmplqv6zcq6.js
+// include: /tmp/tmpiwh6enlx.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp_xjkezg5.js
-// include: /tmp/tmpabkohs6n.js
+  // end include: /tmp/tmpiwh6enlx.js
+// include: /tmp/tmpkxqa21md.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpabkohs6n.js
+  // end include: /tmp/tmpkxqa21md.js
 
 
 var arguments_ = [];
