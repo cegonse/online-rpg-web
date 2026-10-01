@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmp_epsin29.js
+// include: /tmp/tmpwa5o93tx.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -203,25 +203,25 @@ Module['FS_createPath']("/resources/rooms/room01", "objects", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2330984}, {"filename": "/resources/cast_spell.glb", "start": 2330984, "end": 2422664}, {"filename": "/resources/dance1.glb", "start": 2422664, "end": 2992860}, {"filename": "/resources/dance2.glb", "start": 2992860, "end": 3099840}, {"filename": "/resources/death.glb", "start": 3099840, "end": 3194868}, {"filename": "/resources/door.glb", "start": 3194868, "end": 3203280}, {"filename": "/resources/drinking.glb", "start": 3203280, "end": 3290148}, {"filename": "/resources/font.ttf", "start": 3290148, "end": 3332772}, {"filename": "/resources/friendly_target.png", "start": 3332772, "end": 3342982}, {"filename": "/resources/gui_atlas.png", "start": 3342982, "end": 3373350}, {"filename": "/resources/hit.glb", "start": 3373350, "end": 3447662}, {"filename": "/resources/idle.glb", "start": 3447662, "end": 3553238}, {"filename": "/resources/idle_affected_state.glb", "start": 3553238, "end": 3769258}, {"filename": "/resources/kick1.glb", "start": 3769258, "end": 3863506}, {"filename": "/resources/kick2.glb", "start": 3863506, "end": 3945122}, {"filename": "/resources/revive.glb", "start": 3945122, "end": 4114698}, {"filename": "/resources/rooms/room01/floor.obj", "start": 4114698, "end": 4133042}, {"filename": "/resources/rooms/room01/level.bin", "start": 4133042, "end": 4133882}, {"filename": "/resources/rooms/room01/level.json", "start": 4133882, "end": 4135365}, {"filename": "/resources/rooms/room01/lights.bin", "start": 4135365, "end": 4233701}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 4233701, "end": 4508753}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 4508753, "end": 4697865}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 4697865, "end": 4783037}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 4783037, "end": 5103421}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 5103421, "end": 5232065}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 5232065, "end": 5735161}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 5735161, "end": 6267121}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 6267121, "end": 6594821}, {"filename": "/resources/rooms/room01/objects/obj_room08.glb", "start": 6594821, "end": 7372297}, {"filename": "/resources/rooms/room01/objects/obj_room09.glb", "start": 7372297, "end": 7801041}, {"filename": "/resources/rooms/room01/objects/obj_room10.glb", "start": 7801041, "end": 7980205}, {"filename": "/resources/running.glb", "start": 7980205, "end": 8053501}, {"filename": "/resources/stand_from_critical.glb", "start": 8053501, "end": 8158053}, {"filename": "/resources/switch.glb", "start": 8158053, "end": 8170785}, {"filename": "/resources/test_level.glb", "start": 8170785, "end": 8179033}, {"filename": "/resources/unfriendly_target.png", "start": 8179033, "end": 8190246}, {"filename": "/resources/walk_affected_state.glb", "start": 8190246, "end": 8332210}, {"filename": "/resources/walking.glb", "start": 8332210, "end": 13594962}], "remote_package_size": 13594962});
+    loadPackage({"files": [{"filename": "/resources/bot.glb", "start": 0, "end": 2239928}, {"filename": "/resources/button_press.glb", "start": 2239928, "end": 2280504}, {"filename": "/resources/cast_spell.glb", "start": 2280504, "end": 2319032}, {"filename": "/resources/critical_hit.glb", "start": 2319032, "end": 2371452}, {"filename": "/resources/dance1.glb", "start": 2371452, "end": 2485852}, {"filename": "/resources/dance2.glb", "start": 2485852, "end": 2592832}, {"filename": "/resources/death.glb", "start": 2592832, "end": 2641916}, {"filename": "/resources/door.glb", "start": 2641916, "end": 2650328}, {"filename": "/resources/drinking.glb", "start": 2650328, "end": 2708824}, {"filename": "/resources/font.ttf", "start": 2708824, "end": 2751448}, {"filename": "/resources/friendly_target.png", "start": 2751448, "end": 2761658}, {"filename": "/resources/gui_atlas.png", "start": 2761658, "end": 2792026}, {"filename": "/resources/hit.glb", "start": 2792026, "end": 2829030}, {"filename": "/resources/idle.glb", "start": 2829030, "end": 2886038}, {"filename": "/resources/idle_affected_state.glb", "start": 2886038, "end": 3033430}, {"filename": "/resources/kick2.glb", "start": 3033430, "end": 3074630}, {"filename": "/resources/object_drop.glb", "start": 3074630, "end": 3121638}, {"filename": "/resources/rooms/room01/floor.obj", "start": 3121638, "end": 3139982}, {"filename": "/resources/rooms/room01/level.bin", "start": 3139982, "end": 3140822}, {"filename": "/resources/rooms/room01/level.json", "start": 3140822, "end": 3142305}, {"filename": "/resources/rooms/room01/lights.bin", "start": 3142305, "end": 3240641}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 3240641, "end": 3515693}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 3515693, "end": 3704805}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 3704805, "end": 3789977}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 3789977, "end": 4110361}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 4110361, "end": 4239005}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 4239005, "end": 4742101}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 4742101, "end": 5274061}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 5274061, "end": 5601761}, {"filename": "/resources/rooms/room01/objects/obj_room08.glb", "start": 5601761, "end": 6379237}, {"filename": "/resources/rooms/room01/objects/obj_room09.glb", "start": 6379237, "end": 6807981}, {"filename": "/resources/rooms/room01/objects/obj_room10.glb", "start": 6807981, "end": 6987145}, {"filename": "/resources/running.glb", "start": 6987145, "end": 7020629}, {"filename": "/resources/stand_from_critical.glb", "start": 7020629, "end": 7092541}, {"filename": "/resources/switch.glb", "start": 7092541, "end": 7105273}, {"filename": "/resources/sword.glb", "start": 7105273, "end": 7110565}, {"filename": "/resources/sword_draw_1.glb", "start": 7110565, "end": 7141253}, {"filename": "/resources/sword_draw_2.glb", "start": 7141253, "end": 7174441}, {"filename": "/resources/sword_front_slash.glb", "start": 7174441, "end": 7214525}, {"filename": "/resources/sword_hit.glb", "start": 7214525, "end": 7290813}, {"filename": "/resources/sword_idle.glb", "start": 7290813, "end": 7349237}, {"filename": "/resources/sword_run.glb", "start": 7349237, "end": 7384797}, {"filename": "/resources/sword_sheath_1.glb", "start": 7384797, "end": 7415849}, {"filename": "/resources/sword_sheath_2.glb", "start": 7415849, "end": 7450281}, {"filename": "/resources/sword_spin_slash.glb", "start": 7450281, "end": 7539565}, {"filename": "/resources/sword_walk.glb", "start": 7539565, "end": 7585285}, {"filename": "/resources/test_level.glb", "start": 7585285, "end": 7593533}, {"filename": "/resources/test_player.glb", "start": 7593533, "end": 7737601}, {"filename": "/resources/unfriendly_target.png", "start": 7737601, "end": 7748814}, {"filename": "/resources/walk_affected_state.glb", "start": 7748814, "end": 7823850}, {"filename": "/resources/walking.glb", "start": 7823850, "end": 7865246}], "remote_package_size": 7865246});
 
   })();
 
-// end include: /tmp/tmp_epsin29.js
-// include: /tmp/tmptz88ks3d.js
+// end include: /tmp/tmpwa5o93tx.js
+// include: /tmp/tmpn4lfid3n.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmptz88ks3d.js
-// include: /tmp/tmpku_pe1ug.js
+  // end include: /tmp/tmpn4lfid3n.js
+// include: /tmp/tmp8286erro.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpku_pe1ug.js
+  // end include: /tmp/tmp8286erro.js
 
 
 var arguments_ = [];
@@ -4253,6 +4253,10 @@ var stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {
       assert(ASM_CONSTS.hasOwnProperty(code), `No EM_ASM constant found at address ${code}.  The loaded WebAssembly file is likely out of sync with the generated JavaScript.`);
       return ASM_CONSTS[code](...args);
     };
+  var _emscripten_asm_const_double = (code, sigPtr, argbuf) => {
+      return runEmAsmFunction(code, sigPtr, argbuf);
+    };
+
   var _emscripten_asm_const_int = (code, sigPtr, argbuf) => {
       return runEmAsmFunction(code, sigPtr, argbuf);
     };
@@ -6329,6 +6333,38 @@ var stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {
       return -1;
     };
 
+  
+  
+  
+  var registerFocusEventCallback = (target, userData, useCapture, callbackfunc, eventTypeId, eventTypeString, targetThread) => {
+      var eventSize = 256;
+      JSEvents.focusEvent ||= _malloc(eventSize);
+  
+      var focusEventHandlerFunc = (e) => {
+        var nodeName = JSEvents.getNodeNameForTarget(e.target);
+        var id = e.target.id ? e.target.id : '';
+  
+        var focusEvent = JSEvents.focusEvent;
+        stringToUTF8(nodeName, focusEvent + 0, 128);
+        stringToUTF8(id, focusEvent + 128, 128);
+  
+        if (((a1, a2, a3) => dynCall_iiii(callbackfunc, a1, a2, a3))(eventTypeId, focusEvent, userData)) e.preventDefault();
+      };
+  
+      var eventHandler = {
+        target: findEventTarget(target),
+        eventTypeString,
+        eventTypeId,
+        userData,
+        callbackfunc,
+        handlerFunc: focusEventHandlerFunc,
+        useCapture
+      };
+      return JSEvents.registerOrRemoveHandler(eventHandler);
+    };
+  var _emscripten_set_blur_callback_on_thread = (target, userData, useCapture, callbackfunc, targetThread) =>
+      registerFocusEventCallback(target, userData, useCapture, callbackfunc, 12, "blur", targetThread);
+
   var findCanvasEventTarget = findEventTarget;
   var _emscripten_set_canvas_element_size = (target, width, height) => {
       var canvas = findCanvasEventTarget(target);
@@ -6391,6 +6427,9 @@ var stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {
     };
   var _emscripten_set_click_callback_on_thread = (target, userData, useCapture, callbackfunc, targetThread) =>
       registerMouseEventCallback(target, userData, useCapture, callbackfunc, 4, "click", targetThread);
+
+  var _emscripten_set_focus_callback_on_thread = (target, userData, useCapture, callbackfunc, targetThread) =>
+      registerFocusEventCallback(target, userData, useCapture, callbackfunc, 13, "focus", targetThread);
 
   
   
@@ -6995,6 +7034,47 @@ var stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {
 
   var _emscripten_set_touchstart_callback_on_thread = (target, userData, useCapture, callbackfunc, targetThread) =>
       registerTouchEventCallback(target, userData, useCapture, callbackfunc, 22, "touchstart", targetThread);
+
+  
+  var fillVisibilityChangeEventData = (eventStruct) => {
+      var visibilityStates = [ "hidden", "visible", "prerender", "unloaded" ];
+      var visibilityState = visibilityStates.indexOf(document.visibilityState);
+  
+      // Assigning a boolean to HEAP32 with expected type coercion.
+      /** @suppress{checkTypes} */
+      HEAP8[eventStruct] = document.hidden;
+      HEAP32[(((eventStruct)+(4))>>2)] = visibilityState;
+    };
+  
+  var registerVisibilityChangeEventCallback = (target, userData, useCapture, callbackfunc, eventTypeId, eventTypeString, targetThread) => {
+      var eventSize = 8;
+      JSEvents.visibilityChangeEvent ||= _malloc(eventSize);
+  
+      var visibilityChangeEventHandlerFunc = (e) => {
+        var visibilityChangeEvent = JSEvents.visibilityChangeEvent;
+        fillVisibilityChangeEventData(visibilityChangeEvent);
+  
+        if (((a1, a2, a3) => dynCall_iiii(callbackfunc, a1, a2, a3))(eventTypeId, visibilityChangeEvent, userData)) e.preventDefault();
+      };
+  
+      var eventHandler = {
+        target,
+        eventTypeString,
+        eventTypeId,
+        userData,
+        callbackfunc,
+        handlerFunc: visibilityChangeEventHandlerFunc,
+        useCapture
+      };
+      return JSEvents.registerOrRemoveHandler(eventHandler);
+    };
+  
+  var _emscripten_set_visibilitychange_callback_on_thread = (userData, useCapture, callbackfunc, targetThread) => {
+    if (!specialHTMLTargets[1]) {
+      return -4;
+    }
+      return registerVisibilityChangeEventCallback(specialHTMLTargets[1], userData, useCapture, callbackfunc, 21, "visibilitychange", targetThread);
+    };
 
   
   
@@ -7874,6 +7954,8 @@ var stringToUTF8Array = (str, heap, outIdx, maxBytesToWrite) => {
   var _glShaderSource = _emscripten_glShaderSource;
 
   var _glTexImage2D = _emscripten_glTexImage2D;
+
+  var _glTexParameterf = _emscripten_glTexParameterf;
 
   var _glTexParameteri = _emscripten_glTexParameteri;
 
@@ -9675,7 +9757,6 @@ if (Module['wasmBinary']) wasmBinary = Module['wasmBinary'];
   'writeArrayToMemory',
   'registerKeyEventCallback',
   'registerWheelEventCallback',
-  'registerFocusEventCallback',
   'fillDeviceOrientationEventData',
   'registerDeviceOrientationEventCallback',
   'fillDeviceMotionEventData',
@@ -9693,8 +9774,6 @@ if (Module['wasmBinary']) wasmBinary = Module['wasmBinary'];
   'doRequestFullscreen',
   'registerPointerlockErrorEventCallback',
   'requestPointerLock',
-  'fillVisibilityChangeEventData',
-  'registerVisibilityChangeEventCallback',
   'registerBeforeUnloadEventCallback',
   'fillBatteryEventData',
   'registerBatteryEventCallback',
@@ -9825,12 +9904,15 @@ missingLibrarySymbols.forEach(missingLibrarySymbol)
   'fillMouseEventData',
   'registerMouseEventCallback',
   'registerUiEventCallback',
+  'registerFocusEventCallback',
   'fillFullscreenChangeEventData',
   'registerFullscreenChangeEventCallback',
   'currentFullscreenStrategy',
   'restoreOldWindowedStyle',
   'fillPointerlockChangeEventData',
   'registerPointerlockChangeEventCallback',
+  'fillVisibilityChangeEventData',
+  'registerVisibilityChangeEventCallback',
   'registerTouchEventCallback',
   'fillGamepadEventData',
   'registerGamepadEventCallback',
@@ -10040,57 +10122,63 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  136943: () => { if (document.fullscreenElement) return 1; },  
- 136989: () => { return document.getElementById('canvas').width; },  
- 137041: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 137109: () => { document.exitFullscreen(); },  
- 137136: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 137209: () => { if (document.fullscreenElement) return 1; },  
- 137255: () => { return document.getElementById('canvas').width; },  
- 137307: () => { return screen.width; },  
- 137332: () => { document.exitFullscreen(); },  
- 137359: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 137492: () => { return window.innerWidth; },  
- 137518: () => { return window.innerHeight; },  
- 137545: () => { if (document.fullscreenElement) return 1; },  
- 137591: () => { return document.getElementById('canvas').width; },  
- 137643: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 137711: () => { if (document.fullscreenElement) return 1; },  
- 137757: () => { return document.getElementById('canvas').width; },  
- 137809: () => { return screen.width; },  
- 137834: () => { return window.innerWidth; },  
- 137860: () => { return window.innerHeight; },  
- 137887: () => { if (document.fullscreenElement) return 1; },  
- 137933: () => { return document.getElementById('canvas').width; },  
- 137985: () => { return screen.width; },  
- 138010: () => { document.exitFullscreen(); },  
- 138037: () => { if (document.fullscreenElement) return 1; },  
- 138083: () => { return document.getElementById('canvas').width; },  
- 138135: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 138203: () => { document.exitFullscreen(); },  
- 138230: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 138288: () => { return screen.width; },  
- 138313: () => { return screen.height; },  
- 138339: () => { return window.screenX; },  
- 138366: () => { return window.screenY; },  
- 138393: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 138446: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 138517: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 138574: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 138830: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 138901: () => { if (document.fullscreenElement) return 1; },  
- 138947: () => { return window.innerWidth; },  
- 138973: () => { return window.innerHeight; },  
- 139000: () => { if (document.pointerLockElement) return 1; }
+  134651: () => { if (document.fullscreenElement) return 1; },  
+ 134697: () => { return Module.canvas.width; },  
+ 134729: () => { return parseInt(Module.canvas.style.width); },  
+ 134777: () => { document.exitFullscreen(); },  
+ 134804: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
+ 134876: () => { if (document.fullscreenElement) return 1; },  
+ 134922: () => { return Module.canvas.width; },  
+ 134954: () => { return screen.width; },  
+ 134979: () => { document.exitFullscreen(); },  
+ 135006: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
+ 135200: () => { return window.innerWidth; },  
+ 135226: () => { return window.innerHeight; },  
+ 135253: () => { if (document.fullscreenElement) return 1; },  
+ 135299: () => { return Module.canvas.width; },  
+ 135331: () => { return parseInt(Module.canvas.style.width); },  
+ 135379: () => { if (document.fullscreenElement) return 1; },  
+ 135425: () => { return Module.canvas.width; },  
+ 135457: () => { return screen.width; },  
+ 135482: () => { return window.innerWidth; },  
+ 135508: () => { return window.innerHeight; },  
+ 135535: () => { if (document.fullscreenElement) return 1; },  
+ 135581: () => { return Module.canvas.width; },  
+ 135613: () => { return screen.width; },  
+ 135638: () => { document.exitFullscreen(); },  
+ 135665: () => { if (document.fullscreenElement) return 1; },  
+ 135711: () => { return Module.canvas.width; },  
+ 135743: () => { return parseInt(Module.canvas.style.width); },  
+ 135791: () => { document.exitFullscreen(); },  
+ 135818: ($0) => { Module.canvas.style.opacity = $0; },  
+ 135856: () => { return screen.width; },  
+ 135881: () => { return screen.height; },  
+ 135907: () => { return window.screenX; },  
+ 135934: () => { return window.screenY; },  
+ 135961: () => { return window.devicePixelRatio; },  
+ 135997: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 136050: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 136101: () => { Module.canvas.style.cursor = 'none'; },  
+ 136138: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 136394: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 136445: () => { if (document.pointerLockElement) return 1; },  
+ 136492: () => { if (document.fullscreenElement) return 1; },  
+ 136538: () => { return window.innerWidth; },  
+ 136564: () => { return window.innerHeight; }
 };
+function genUuid() { return crypto.randomUUID(); }
 function getQueryParam(key) { const k = UTF8ToString(key); const v = new URLSearchParams(window.location.search).get(k); if (v === null) return 0; return stringToNewUTF8(v); }
 function isMobile() { const isMobileUA = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent); const isHighDPI = window.devicePixelRatio >= 2; const isSmallScreen = window.innerWidth < 768; return isMobileUA || (isHighDPI && isSmallScreen); }
+function SetCanvasIdJs(out,outSize) { var canvasId = "#" + Module.canvas.id; stringToUTF8(canvasId, out, outSize); }
+function __asyncjs__RequestClipboardData() { return Asyncify.handleAsync(async () => { if (navigator.clipboard && window.isSecureContext) { let items = await navigator.clipboard.read(); for (const item of items) { if (item.types.includes("text/plain")) { const blob = await item.getType("text/plain"); const text = await blob.text(); window._lastClipboardString = text; } else if (item.types.find(t => t.startsWith("image/"))) { const blob = await item.getType(item.types.find(t => t.startsWith("image/"))); const bitmap = await createImageBitmap(blob); const canvas = document.createElement('canvas'); canvas.width = bitmap.width; canvas.height = bitmap.height; const ctx = canvas.getContext('2d'); ctx.drawImage(bitmap, 0, 0); const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height).data; window._lastImgWidth = canvas.width; window._lastImgHeight = canvas.height; window._lastImgData = imgData; } } } else console.warn("Clipboard read() requires HTTPS/Localhost"); }); }
+function GetLastPastedText() { var str = window._lastClipboardString || ""; var length = lengthBytesUTF8(str) + 1; if (length > 1) { var ptr = _malloc(length); stringToUTF8(str, ptr, length); return ptr; } return 0; }
+function GetLastPastedImage(width,height) { if (window._lastImgData) { const data = window._lastImgData; if (data.length > 0) { const ptr = _malloc(data.length); HEAPU8.set(data, ptr); if (width) setValue(width, window._lastImgWidth, 'i32'); if (height) setValue(height, window._lastImgHeight, 'i32'); window._lastImgData = null; return ptr; } } return 0; }
 
 // Imports from the Wasm binary.
 var _main = Module['_main'] = makeInvalidEarlyAccess('_main');
 var _free = makeInvalidEarlyAccess('_free');
-var _malloc = makeInvalidEarlyAccess('_malloc');
 var _fflush = makeInvalidEarlyAccess('_fflush');
+var _malloc = makeInvalidEarlyAccess('_malloc');
 var _strerror = makeInvalidEarlyAccess('_strerror');
 var _emscripten_stack_get_end = makeInvalidEarlyAccess('_emscripten_stack_get_end');
 var _emscripten_stack_get_base = makeInvalidEarlyAccess('_emscripten_stack_get_base');
@@ -10104,14 +10192,13 @@ var dynCall_ii = makeInvalidEarlyAccess('dynCall_ii');
 var dynCall_vi = makeInvalidEarlyAccess('dynCall_vi');
 var dynCall_vii = makeInvalidEarlyAccess('dynCall_vii');
 var dynCall_iii = makeInvalidEarlyAccess('dynCall_iii');
-var dynCall_iiii = makeInvalidEarlyAccess('dynCall_iiii');
 var dynCall_viii = makeInvalidEarlyAccess('dynCall_viii');
+var dynCall_iiii = makeInvalidEarlyAccess('dynCall_iiii');
 var dynCall_viff = makeInvalidEarlyAccess('dynCall_viff');
 var dynCall_viiiii = makeInvalidEarlyAccess('dynCall_viiiii');
 var dynCall_viiii = makeInvalidEarlyAccess('dynCall_viiii');
 var dynCall_vidd = makeInvalidEarlyAccess('dynCall_vidd');
 var dynCall_iiiiii = makeInvalidEarlyAccess('dynCall_iiiiii');
-var dynCall_viiiiii = makeInvalidEarlyAccess('dynCall_viiiiii');
 var dynCall_vffff = makeInvalidEarlyAccess('dynCall_vffff');
 var dynCall_vf = makeInvalidEarlyAccess('dynCall_vf');
 var dynCall_viiiiiiii = makeInvalidEarlyAccess('dynCall_viiiiiiii');
@@ -10124,6 +10211,7 @@ var dynCall_viif = makeInvalidEarlyAccess('dynCall_viif');
 var dynCall_vif = makeInvalidEarlyAccess('dynCall_vif');
 var dynCall_vifff = makeInvalidEarlyAccess('dynCall_vifff');
 var dynCall_viffff = makeInvalidEarlyAccess('dynCall_viffff');
+var dynCall_viiiiii = makeInvalidEarlyAccess('dynCall_viiiiii');
 var dynCall_vfff = makeInvalidEarlyAccess('dynCall_vfff');
 var dynCall_jiji = makeInvalidEarlyAccess('dynCall_jiji');
 var dynCall_iidiiii = makeInvalidEarlyAccess('dynCall_iidiiii');
@@ -10147,8 +10235,8 @@ var wasmMemory = makeInvalidEarlyAccess('wasmMemory');
 function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['main'] != 'undefined', 'missing Wasm export: main');
   assert(typeof wasmExports['free'] != 'undefined', 'missing Wasm export: free');
-  assert(typeof wasmExports['malloc'] != 'undefined', 'missing Wasm export: malloc');
   assert(typeof wasmExports['fflush'] != 'undefined', 'missing Wasm export: fflush');
+  assert(typeof wasmExports['malloc'] != 'undefined', 'missing Wasm export: malloc');
   assert(typeof wasmExports['strerror'] != 'undefined', 'missing Wasm export: strerror');
   assert(typeof wasmExports['emscripten_stack_get_end'] != 'undefined', 'missing Wasm export: emscripten_stack_get_end');
   assert(typeof wasmExports['emscripten_stack_get_base'] != 'undefined', 'missing Wasm export: emscripten_stack_get_base');
@@ -10162,14 +10250,13 @@ function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['dynCall_vi'] != 'undefined', 'missing Wasm export: dynCall_vi');
   assert(typeof wasmExports['dynCall_vii'] != 'undefined', 'missing Wasm export: dynCall_vii');
   assert(typeof wasmExports['dynCall_iii'] != 'undefined', 'missing Wasm export: dynCall_iii');
-  assert(typeof wasmExports['dynCall_iiii'] != 'undefined', 'missing Wasm export: dynCall_iiii');
   assert(typeof wasmExports['dynCall_viii'] != 'undefined', 'missing Wasm export: dynCall_viii');
+  assert(typeof wasmExports['dynCall_iiii'] != 'undefined', 'missing Wasm export: dynCall_iiii');
   assert(typeof wasmExports['dynCall_viff'] != 'undefined', 'missing Wasm export: dynCall_viff');
   assert(typeof wasmExports['dynCall_viiiii'] != 'undefined', 'missing Wasm export: dynCall_viiiii');
   assert(typeof wasmExports['dynCall_viiii'] != 'undefined', 'missing Wasm export: dynCall_viiii');
   assert(typeof wasmExports['dynCall_vidd'] != 'undefined', 'missing Wasm export: dynCall_vidd');
   assert(typeof wasmExports['dynCall_iiiiii'] != 'undefined', 'missing Wasm export: dynCall_iiiiii');
-  assert(typeof wasmExports['dynCall_viiiiii'] != 'undefined', 'missing Wasm export: dynCall_viiiiii');
   assert(typeof wasmExports['dynCall_vffff'] != 'undefined', 'missing Wasm export: dynCall_vffff');
   assert(typeof wasmExports['dynCall_vf'] != 'undefined', 'missing Wasm export: dynCall_vf');
   assert(typeof wasmExports['dynCall_viiiiiiii'] != 'undefined', 'missing Wasm export: dynCall_viiiiiiii');
@@ -10182,6 +10269,7 @@ function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['dynCall_vif'] != 'undefined', 'missing Wasm export: dynCall_vif');
   assert(typeof wasmExports['dynCall_vifff'] != 'undefined', 'missing Wasm export: dynCall_vifff');
   assert(typeof wasmExports['dynCall_viffff'] != 'undefined', 'missing Wasm export: dynCall_viffff');
+  assert(typeof wasmExports['dynCall_viiiiii'] != 'undefined', 'missing Wasm export: dynCall_viiiiii');
   assert(typeof wasmExports['dynCall_vfff'] != 'undefined', 'missing Wasm export: dynCall_vfff');
   assert(typeof wasmExports['dynCall_jiji'] != 'undefined', 'missing Wasm export: dynCall_jiji');
   assert(typeof wasmExports['dynCall_iidiiii'] != 'undefined', 'missing Wasm export: dynCall_iidiiii');
@@ -10202,8 +10290,8 @@ function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['__indirect_function_table'] != 'undefined', 'missing Wasm export: __indirect_function_table');
   _main = Module['_main'] = createExportWrapper('main', 2);
   _free = createExportWrapper('free', 1);
-  _malloc = createExportWrapper('malloc', 1);
   _fflush = createExportWrapper('fflush', 1);
+  _malloc = createExportWrapper('malloc', 1);
   _strerror = createExportWrapper('strerror', 1);
   _emscripten_stack_get_end = wasmExports['emscripten_stack_get_end'];
   _emscripten_stack_get_base = wasmExports['emscripten_stack_get_base'];
@@ -10217,14 +10305,13 @@ function assignWasmExports(wasmExports) {
   dynCall_vi = dynCalls['vi'] = createExportWrapper('dynCall_vi', 2);
   dynCall_vii = dynCalls['vii'] = createExportWrapper('dynCall_vii', 3);
   dynCall_iii = dynCalls['iii'] = createExportWrapper('dynCall_iii', 3);
-  dynCall_iiii = dynCalls['iiii'] = createExportWrapper('dynCall_iiii', 4);
   dynCall_viii = dynCalls['viii'] = createExportWrapper('dynCall_viii', 4);
+  dynCall_iiii = dynCalls['iiii'] = createExportWrapper('dynCall_iiii', 4);
   dynCall_viff = dynCalls['viff'] = createExportWrapper('dynCall_viff', 4);
   dynCall_viiiii = dynCalls['viiiii'] = createExportWrapper('dynCall_viiiii', 6);
   dynCall_viiii = dynCalls['viiii'] = createExportWrapper('dynCall_viiii', 5);
   dynCall_vidd = dynCalls['vidd'] = createExportWrapper('dynCall_vidd', 4);
   dynCall_iiiiii = dynCalls['iiiiii'] = createExportWrapper('dynCall_iiiiii', 6);
-  dynCall_viiiiii = dynCalls['viiiiii'] = createExportWrapper('dynCall_viiiiii', 7);
   dynCall_vffff = dynCalls['vffff'] = createExportWrapper('dynCall_vffff', 5);
   dynCall_vf = dynCalls['vf'] = createExportWrapper('dynCall_vf', 2);
   dynCall_viiiiiiii = dynCalls['viiiiiiii'] = createExportWrapper('dynCall_viiiiiiii', 9);
@@ -10237,6 +10324,7 @@ function assignWasmExports(wasmExports) {
   dynCall_vif = dynCalls['vif'] = createExportWrapper('dynCall_vif', 3);
   dynCall_vifff = dynCalls['vifff'] = createExportWrapper('dynCall_vifff', 5);
   dynCall_viffff = dynCalls['viffff'] = createExportWrapper('dynCall_viffff', 6);
+  dynCall_viiiiii = dynCalls['viiiiii'] = createExportWrapper('dynCall_viiiiii', 7);
   dynCall_vfff = dynCalls['vfff'] = createExportWrapper('dynCall_vfff', 4);
   dynCall_jiji = dynCalls['jiji'] = createExportWrapper('dynCall_jiji', 4);
   dynCall_iidiiii = dynCalls['iidiiii'] = createExportWrapper('dynCall_iidiiii', 7);
@@ -10259,7 +10347,13 @@ function assignWasmExports(wasmExports) {
 
 var wasmImports = {
   /** @export */
+  GetLastPastedText,
+  /** @export */
+  SetCanvasIdJs,
+  /** @export */
   __assert_fail: ___assert_fail,
+  /** @export */
+  __asyncjs__RequestClipboardData,
   /** @export */
   __cxa_throw: ___cxa_throw,
   /** @export */
@@ -10280,6 +10374,8 @@ var wasmImports = {
   _tzset_js: __tzset_js,
   /** @export */
   clock_time_get: _clock_time_get,
+  /** @export */
+  emscripten_asm_const_double: _emscripten_asm_const_double,
   /** @export */
   emscripten_asm_const_int: _emscripten_asm_const_int,
   /** @export */
@@ -10625,9 +10721,13 @@ var wasmImports = {
   /** @export */
   emscripten_sample_gamepad_data: _emscripten_sample_gamepad_data,
   /** @export */
+  emscripten_set_blur_callback_on_thread: _emscripten_set_blur_callback_on_thread,
+  /** @export */
   emscripten_set_canvas_element_size: _emscripten_set_canvas_element_size,
   /** @export */
   emscripten_set_click_callback_on_thread: _emscripten_set_click_callback_on_thread,
+  /** @export */
+  emscripten_set_focus_callback_on_thread: _emscripten_set_focus_callback_on_thread,
   /** @export */
   emscripten_set_fullscreenchange_callback_on_thread: _emscripten_set_fullscreenchange_callback_on_thread,
   /** @export */
@@ -10650,6 +10750,8 @@ var wasmImports = {
   emscripten_set_touchmove_callback_on_thread: _emscripten_set_touchmove_callback_on_thread,
   /** @export */
   emscripten_set_touchstart_callback_on_thread: _emscripten_set_touchstart_callback_on_thread,
+  /** @export */
+  emscripten_set_visibilitychange_callback_on_thread: _emscripten_set_visibilitychange_callback_on_thread,
   /** @export */
   emscripten_set_window_title: _emscripten_set_window_title,
   /** @export */
@@ -10766,6 +10868,8 @@ var wasmImports = {
   glShaderSource: _glShaderSource,
   /** @export */
   glTexImage2D: _glTexImage2D,
+  /** @export */
+  glTexParameterf: _glTexParameterf,
   /** @export */
   glTexParameteri: _glTexParameteri,
   /** @export */
