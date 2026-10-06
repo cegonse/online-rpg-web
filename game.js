@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmppby_rkv1.js
+// include: /tmp/tmpsejbslx_.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -203,25 +203,25 @@ Module['FS_createPath']("/resources/rooms/room01", "objects", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/Sword_Regular_A.glb", "start": 0, "end": 33196}, {"filename": "/resources/Sword_Regular_B.glb", "start": 33196, "end": 68520}, {"filename": "/resources/Sword_Regular_C.glb", "start": 68520, "end": 134848}, {"filename": "/resources/bot.glb", "start": 134848, "end": 2374776}, {"filename": "/resources/button_press.glb", "start": 2374776, "end": 2415352}, {"filename": "/resources/cast_spell.glb", "start": 2415352, "end": 2453880}, {"filename": "/resources/critical_hit.glb", "start": 2453880, "end": 2506300}, {"filename": "/resources/dance1.glb", "start": 2506300, "end": 2620700}, {"filename": "/resources/dance2.glb", "start": 2620700, "end": 2727680}, {"filename": "/resources/death.glb", "start": 2727680, "end": 2776764}, {"filename": "/resources/door.glb", "start": 2776764, "end": 2785176}, {"filename": "/resources/drinking.glb", "start": 2785176, "end": 2843672}, {"filename": "/resources/font.ttf", "start": 2843672, "end": 2886296}, {"filename": "/resources/friendly_target.png", "start": 2886296, "end": 2896506}, {"filename": "/resources/gui_atlas.png", "start": 2896506, "end": 2926874}, {"filename": "/resources/hit.glb", "start": 2926874, "end": 2963878}, {"filename": "/resources/idle.glb", "start": 2963878, "end": 3020886}, {"filename": "/resources/idle_affected_state.glb", "start": 3020886, "end": 3168278}, {"filename": "/resources/kick2.glb", "start": 3168278, "end": 3209478}, {"filename": "/resources/object_drop.glb", "start": 3209478, "end": 3256486}, {"filename": "/resources/rooms/room01/floor.obj", "start": 3256486, "end": 3274830}, {"filename": "/resources/rooms/room01/level.bin", "start": 3274830, "end": 3275670}, {"filename": "/resources/rooms/room01/level.json", "start": 3275670, "end": 3277153}, {"filename": "/resources/rooms/room01/lights.bin", "start": 3277153, "end": 3375489}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 3375489, "end": 3650541}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 3650541, "end": 3839653}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 3839653, "end": 3924825}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 3924825, "end": 4245209}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 4245209, "end": 4373853}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 4373853, "end": 4876949}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 4876949, "end": 5408909}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 5408909, "end": 5736609}, {"filename": "/resources/rooms/room01/objects/obj_room08.glb", "start": 5736609, "end": 6514085}, {"filename": "/resources/rooms/room01/objects/obj_room09.glb", "start": 6514085, "end": 6942829}, {"filename": "/resources/rooms/room01/objects/obj_room10.glb", "start": 6942829, "end": 7121993}, {"filename": "/resources/running.glb", "start": 7121993, "end": 7155477}, {"filename": "/resources/stand_from_critical.glb", "start": 7155477, "end": 7227389}, {"filename": "/resources/switch.glb", "start": 7227389, "end": 7240121}, {"filename": "/resources/sword.glb", "start": 7240121, "end": 7245413}, {"filename": "/resources/sword_draw_1.glb", "start": 7245413, "end": 7276101}, {"filename": "/resources/sword_draw_2.glb", "start": 7276101, "end": 7309289}, {"filename": "/resources/sword_front_slash.glb", "start": 7309289, "end": 7349373}, {"filename": "/resources/sword_hit.glb", "start": 7349373, "end": 7425661}, {"filename": "/resources/sword_idle.glb", "start": 7425661, "end": 7484085}, {"filename": "/resources/sword_run.glb", "start": 7484085, "end": 7519645}, {"filename": "/resources/sword_sheath_1.glb", "start": 7519645, "end": 7550697}, {"filename": "/resources/sword_sheath_2.glb", "start": 7550697, "end": 7585129}, {"filename": "/resources/sword_spin_slash.glb", "start": 7585129, "end": 7674413}, {"filename": "/resources/sword_walk.glb", "start": 7674413, "end": 7720133}, {"filename": "/resources/test_level.glb", "start": 7720133, "end": 7728381}, {"filename": "/resources/test_player.glb", "start": 7728381, "end": 7872449}, {"filename": "/resources/unfriendly_target.png", "start": 7872449, "end": 7883662}, {"filename": "/resources/walk_affected_state.glb", "start": 7883662, "end": 7958698}, {"filename": "/resources/walking.glb", "start": 7958698, "end": 8000094}], "remote_package_size": 8000094});
+    loadPackage({"files": [{"filename": "/resources/NinjaJump_Idle_Loop.glb", "start": 0, "end": 66332}, {"filename": "/resources/NinjaJump_Land.glb", "start": 66332, "end": 117180}, {"filename": "/resources/Pistol_Idle_Loop.glb", "start": 117180, "end": 176484}, {"filename": "/resources/Pistol_Reload.glb", "start": 176484, "end": 235784}, {"filename": "/resources/Pistol_Shoot.glb", "start": 235784, "end": 273224}, {"filename": "/resources/Punch_Cross.glb", "start": 273224, "end": 318408}, {"filename": "/resources/Punch_Jab.glb", "start": 318408, "end": 360788}, {"filename": "/resources/Sword_Regular_A.glb", "start": 360788, "end": 393984}, {"filename": "/resources/Sword_Regular_B.glb", "start": 393984, "end": 429308}, {"filename": "/resources/Sword_Regular_C.glb", "start": 429308, "end": 495636}, {"filename": "/resources/Walk_Formal_Loop.glb", "start": 495636, "end": 547892}, {"filename": "/resources/bot.glb", "start": 547892, "end": 2787820}, {"filename": "/resources/button_press.glb", "start": 2787820, "end": 2828396}, {"filename": "/resources/cast_spell.glb", "start": 2828396, "end": 2866924}, {"filename": "/resources/critical_hit.glb", "start": 2866924, "end": 2919344}, {"filename": "/resources/dance1.glb", "start": 2919344, "end": 3033744}, {"filename": "/resources/dance2.glb", "start": 3033744, "end": 3140724}, {"filename": "/resources/death.glb", "start": 3140724, "end": 3189808}, {"filename": "/resources/door.glb", "start": 3189808, "end": 3198220}, {"filename": "/resources/drinking.glb", "start": 3198220, "end": 3256716}, {"filename": "/resources/font.ttf", "start": 3256716, "end": 3299340}, {"filename": "/resources/friendly_target.png", "start": 3299340, "end": 3309550}, {"filename": "/resources/gui_atlas.png", "start": 3309550, "end": 3339918}, {"filename": "/resources/hit.glb", "start": 3339918, "end": 3376922}, {"filename": "/resources/idle.glb", "start": 3376922, "end": 3433930}, {"filename": "/resources/idle_affected_state.glb", "start": 3433930, "end": 3581322}, {"filename": "/resources/kick2.glb", "start": 3581322, "end": 3622522}, {"filename": "/resources/object_drop.glb", "start": 3622522, "end": 3669530}, {"filename": "/resources/rooms/room01/floor.obj", "start": 3669530, "end": 3687874}, {"filename": "/resources/rooms/room01/level.bin", "start": 3687874, "end": 3688714}, {"filename": "/resources/rooms/room01/level.json", "start": 3688714, "end": 3690197}, {"filename": "/resources/rooms/room01/lights.bin", "start": 3690197, "end": 3788533}, {"filename": "/resources/rooms/room01/objects/obj_room00.glb", "start": 3788533, "end": 4063585}, {"filename": "/resources/rooms/room01/objects/obj_room01.glb", "start": 4063585, "end": 4252697}, {"filename": "/resources/rooms/room01/objects/obj_room02.glb", "start": 4252697, "end": 4337869}, {"filename": "/resources/rooms/room01/objects/obj_room03.glb", "start": 4337869, "end": 4658253}, {"filename": "/resources/rooms/room01/objects/obj_room04.glb", "start": 4658253, "end": 4786897}, {"filename": "/resources/rooms/room01/objects/obj_room05.glb", "start": 4786897, "end": 5289993}, {"filename": "/resources/rooms/room01/objects/obj_room06.glb", "start": 5289993, "end": 5821953}, {"filename": "/resources/rooms/room01/objects/obj_room07.glb", "start": 5821953, "end": 6149653}, {"filename": "/resources/rooms/room01/objects/obj_room08.glb", "start": 6149653, "end": 6927129}, {"filename": "/resources/rooms/room01/objects/obj_room09.glb", "start": 6927129, "end": 7355873}, {"filename": "/resources/rooms/room01/objects/obj_room10.glb", "start": 7355873, "end": 7535037}, {"filename": "/resources/running.glb", "start": 7535037, "end": 7568521}, {"filename": "/resources/stand_from_critical.glb", "start": 7568521, "end": 7640433}, {"filename": "/resources/switch.glb", "start": 7640433, "end": 7653165}, {"filename": "/resources/sword.glb", "start": 7653165, "end": 7658457}, {"filename": "/resources/sword_draw_1.glb", "start": 7658457, "end": 7689145}, {"filename": "/resources/sword_draw_2.glb", "start": 7689145, "end": 7722333}, {"filename": "/resources/sword_front_slash.glb", "start": 7722333, "end": 7762417}, {"filename": "/resources/sword_hit.glb", "start": 7762417, "end": 7838705}, {"filename": "/resources/sword_idle.glb", "start": 7838705, "end": 7897129}, {"filename": "/resources/sword_run.glb", "start": 7897129, "end": 7932689}, {"filename": "/resources/sword_sheath_1.glb", "start": 7932689, "end": 7963741}, {"filename": "/resources/sword_sheath_2.glb", "start": 7963741, "end": 7998173}, {"filename": "/resources/sword_spin_slash.glb", "start": 7998173, "end": 8087457}, {"filename": "/resources/sword_walk.glb", "start": 8087457, "end": 8133177}, {"filename": "/resources/test_level.glb", "start": 8133177, "end": 8141425}, {"filename": "/resources/test_player.glb", "start": 8141425, "end": 8285493}, {"filename": "/resources/unfriendly_target.png", "start": 8285493, "end": 8296706}, {"filename": "/resources/walk_affected_state.glb", "start": 8296706, "end": 8371742}, {"filename": "/resources/walking.glb", "start": 8371742, "end": 8413138}], "remote_package_size": 8413138});
 
   })();
 
-// end include: /tmp/tmppby_rkv1.js
-// include: /tmp/tmpt11k3rz1.js
+// end include: /tmp/tmpsejbslx_.js
+// include: /tmp/tmpkw37qduj.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpt11k3rz1.js
-// include: /tmp/tmpxd4r6lwq.js
+  // end include: /tmp/tmpkw37qduj.js
+// include: /tmp/tmpfe9iqgou.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpxd4r6lwq.js
+  // end include: /tmp/tmpfe9iqgou.js
 
 
 var arguments_ = [];
@@ -10122,49 +10122,49 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  134779: () => { if (document.fullscreenElement) return 1; },  
- 134825: () => { return Module.canvas.width; },  
- 134857: () => { return parseInt(Module.canvas.style.width); },  
- 134905: () => { document.exitFullscreen(); },  
- 134932: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
- 135004: () => { if (document.fullscreenElement) return 1; },  
- 135050: () => { return Module.canvas.width; },  
- 135082: () => { return screen.width; },  
- 135107: () => { document.exitFullscreen(); },  
- 135134: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
- 135328: () => { return window.innerWidth; },  
- 135354: () => { return window.innerHeight; },  
- 135381: () => { if (document.fullscreenElement) return 1; },  
- 135427: () => { return Module.canvas.width; },  
- 135459: () => { return parseInt(Module.canvas.style.width); },  
- 135507: () => { if (document.fullscreenElement) return 1; },  
- 135553: () => { return Module.canvas.width; },  
- 135585: () => { return screen.width; },  
- 135610: () => { return window.innerWidth; },  
- 135636: () => { return window.innerHeight; },  
- 135663: () => { if (document.fullscreenElement) return 1; },  
- 135709: () => { return Module.canvas.width; },  
- 135741: () => { return screen.width; },  
- 135766: () => { document.exitFullscreen(); },  
- 135793: () => { if (document.fullscreenElement) return 1; },  
- 135839: () => { return Module.canvas.width; },  
- 135871: () => { return parseInt(Module.canvas.style.width); },  
- 135919: () => { document.exitFullscreen(); },  
- 135946: ($0) => { Module.canvas.style.opacity = $0; },  
- 135984: () => { return screen.width; },  
- 136009: () => { return screen.height; },  
- 136035: () => { return window.screenX; },  
- 136062: () => { return window.screenY; },  
- 136089: () => { return window.devicePixelRatio; },  
- 136125: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 136178: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 136229: () => { Module.canvas.style.cursor = 'none'; },  
- 136266: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 136522: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 136573: () => { if (document.pointerLockElement) return 1; },  
- 136620: () => { if (document.fullscreenElement) return 1; },  
- 136666: () => { return window.innerWidth; },  
- 136692: () => { return window.innerHeight; }
+  135003: () => { if (document.fullscreenElement) return 1; },  
+ 135049: () => { return Module.canvas.width; },  
+ 135081: () => { return parseInt(Module.canvas.style.width); },  
+ 135129: () => { document.exitFullscreen(); },  
+ 135156: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
+ 135228: () => { if (document.fullscreenElement) return 1; },  
+ 135274: () => { return Module.canvas.width; },  
+ 135306: () => { return screen.width; },  
+ 135331: () => { document.exitFullscreen(); },  
+ 135358: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
+ 135552: () => { return window.innerWidth; },  
+ 135578: () => { return window.innerHeight; },  
+ 135605: () => { if (document.fullscreenElement) return 1; },  
+ 135651: () => { return Module.canvas.width; },  
+ 135683: () => { return parseInt(Module.canvas.style.width); },  
+ 135731: () => { if (document.fullscreenElement) return 1; },  
+ 135777: () => { return Module.canvas.width; },  
+ 135809: () => { return screen.width; },  
+ 135834: () => { return window.innerWidth; },  
+ 135860: () => { return window.innerHeight; },  
+ 135887: () => { if (document.fullscreenElement) return 1; },  
+ 135933: () => { return Module.canvas.width; },  
+ 135965: () => { return screen.width; },  
+ 135990: () => { document.exitFullscreen(); },  
+ 136017: () => { if (document.fullscreenElement) return 1; },  
+ 136063: () => { return Module.canvas.width; },  
+ 136095: () => { return parseInt(Module.canvas.style.width); },  
+ 136143: () => { document.exitFullscreen(); },  
+ 136170: ($0) => { Module.canvas.style.opacity = $0; },  
+ 136208: () => { return screen.width; },  
+ 136233: () => { return screen.height; },  
+ 136259: () => { return window.screenX; },  
+ 136286: () => { return window.screenY; },  
+ 136313: () => { return window.devicePixelRatio; },  
+ 136349: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 136402: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 136453: () => { Module.canvas.style.cursor = 'none'; },  
+ 136490: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 136746: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 136797: () => { if (document.pointerLockElement) return 1; },  
+ 136844: () => { if (document.fullscreenElement) return 1; },  
+ 136890: () => { return window.innerWidth; },  
+ 136916: () => { return window.innerHeight; }
 };
 function genUuid() { return crypto.randomUUID(); }
 function getQueryParam(key) { const k = UTF8ToString(key); const v = new URLSearchParams(window.location.search).get(k); if (v === null) return 0; return stringToNewUTF8(v); }
