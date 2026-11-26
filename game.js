@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpeyfezzwi.js
+// include: /tmp/tmp6d6wfd3l.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -207,21 +207,21 @@ Module['FS_createPath']("/resources/rooms/room01", "objects", true, true);
 
   })();
 
-// end include: /tmp/tmpeyfezzwi.js
-// include: /tmp/tmpkn1qlorm.js
+// end include: /tmp/tmp6d6wfd3l.js
+// include: /tmp/tmpzh_e7tn9.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpkn1qlorm.js
-// include: /tmp/tmpqna640r6.js
+  // end include: /tmp/tmpzh_e7tn9.js
+// include: /tmp/tmpm4nmjvp_.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpqna640r6.js
+  // end include: /tmp/tmpm4nmjvp_.js
 
 
 var arguments_ = [];
@@ -1087,75 +1087,6 @@ async function createWasm() {
     };
 
   
-
-  class ExceptionInfo {
-      // excPtr - Thrown object pointer to wrap. Metadata pointer is calculated from it.
-      constructor(excPtr) {
-        this.excPtr = excPtr;
-        this.ptr = excPtr - 24;
-      }
-  
-      set_type(type) {
-        HEAPU32[(((this.ptr)+(4))>>2)] = type;
-      }
-  
-      get_type() {
-        return HEAPU32[(((this.ptr)+(4))>>2)];
-      }
-  
-      set_destructor(destructor) {
-        HEAPU32[(((this.ptr)+(8))>>2)] = destructor;
-      }
-  
-      get_destructor() {
-        return HEAPU32[(((this.ptr)+(8))>>2)];
-      }
-  
-      set_caught(caught) {
-        caught = caught ? 1 : 0;
-        HEAP8[(this.ptr)+(12)] = caught;
-      }
-  
-      get_caught() {
-        return HEAP8[(this.ptr)+(12)] != 0;
-      }
-  
-      set_rethrown(rethrown) {
-        rethrown = rethrown ? 1 : 0;
-        HEAP8[(this.ptr)+(13)] = rethrown;
-      }
-  
-      get_rethrown() {
-        return HEAP8[(this.ptr)+(13)] != 0;
-      }
-  
-      // Initialize native structure fields. Should be called once after allocated.
-      init(type, destructor) {
-        this.set_adjusted_ptr(0);
-        this.set_type(type);
-        this.set_destructor(destructor);
-      }
-  
-      set_adjusted_ptr(adjustedPtr) {
-        HEAPU32[(((this.ptr)+(16))>>2)] = adjustedPtr;
-      }
-  
-      get_adjusted_ptr() {
-        return HEAPU32[(((this.ptr)+(16))>>2)];
-      }
-    }
-  
-  var exceptionLast = 0;
-  
-  var uncaughtExceptionCount = 0;
-  var ___cxa_throw = (ptr, type, destructor) => {
-      var info = new ExceptionInfo(ptr);
-      // Initialize ExceptionInfo content after it was allocated in __cxa_allocate_exception.
-      info.init(type, destructor);
-      exceptionLast = ptr;
-      uncaughtExceptionCount++;
-      assert(false, 'Exception thrown, but exception catching is not enabled. Compile with -sNO_DISABLE_EXCEPTION_CATCHING or -sEXCEPTION_CATCHING_ALLOWED=[..] to catch.');
-    };
 
   var PATH = {
   isAbs:(path) => path.charAt(0) === '/',
@@ -9156,6 +9087,7 @@ if (Module['wasmBinary']) wasmBinary = Module['wasmBinary'];
   'makePromise',
   'idsToPromises',
   'makePromiseCallback',
+  'ExceptionInfo',
   'findMatchingCatch',
   'Browser_asyncPrepareDataCounter',
   'isLeapYear',
@@ -9298,7 +9230,6 @@ missingLibrarySymbols.forEach(missingLibrarySymbol)
   'uncaughtExceptionCount',
   'exceptionLast',
   'exceptionCaught',
-  'ExceptionInfo',
   'Browser',
   'requestFullscreen',
   'requestFullScreen',
@@ -9485,51 +9416,51 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('loadSplitModule');
 }
 var ASM_CONSTS = {
-  126235: () => { return window.innerWidth; },  
- 126265: () => { return window.innerHeight; },  
- 126296: () => { if (document.fullscreenElement) return 1; },  
- 126342: () => { return Module.canvas.width; },  
- 126374: () => { return parseInt(Module.canvas.style.width); },  
- 126422: () => { document.exitFullscreen(); },  
- 126449: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
- 126521: () => { if (document.fullscreenElement) return 1; },  
- 126567: () => { return Module.canvas.width; },  
- 126599: () => { return screen.width; },  
- 126624: () => { document.exitFullscreen(); },  
- 126651: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
- 126845: () => { return window.innerWidth; },  
- 126871: () => { return window.innerHeight; },  
- 126898: () => { if (document.fullscreenElement) return 1; },  
- 126944: () => { return Module.canvas.width; },  
- 126976: () => { return parseInt(Module.canvas.style.width); },  
- 127024: () => { if (document.fullscreenElement) return 1; },  
- 127070: () => { return Module.canvas.width; },  
- 127102: () => { return screen.width; },  
- 127127: () => { return window.innerWidth; },  
- 127153: () => { return window.innerHeight; },  
- 127180: () => { if (document.fullscreenElement) return 1; },  
- 127226: () => { return Module.canvas.width; },  
- 127258: () => { return screen.width; },  
- 127283: () => { document.exitFullscreen(); },  
- 127310: () => { if (document.fullscreenElement) return 1; },  
- 127356: () => { return Module.canvas.width; },  
- 127388: () => { return parseInt(Module.canvas.style.width); },  
- 127436: () => { document.exitFullscreen(); },  
- 127463: ($0) => { Module.canvas.style.opacity = $0; },  
- 127501: () => { return screen.width; },  
- 127526: () => { return screen.height; },  
- 127552: () => { return window.screenX; },  
- 127579: () => { return window.screenY; },  
- 127606: () => { return window.devicePixelRatio; },  
- 127642: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 127695: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 127746: () => { Module.canvas.style.cursor = 'none'; },  
- 127783: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 128039: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 128090: () => { if (document.pointerLockElement) return 1; },  
- 128137: () => { if (document.fullscreenElement) return 1; },  
- 128183: () => { return window.innerWidth; },  
- 128209: () => { return window.innerHeight; }
+  124699: () => { return window.innerWidth; },  
+ 124729: () => { return window.innerHeight; },  
+ 124760: () => { if (document.fullscreenElement) return 1; },  
+ 124806: () => { return Module.canvas.width; },  
+ 124838: () => { return parseInt(Module.canvas.style.width); },  
+ 124886: () => { document.exitFullscreen(); },  
+ 124913: () => { setTimeout(function(){ Module.requestFullscreen(false, false); }, 100); },  
+ 124985: () => { if (document.fullscreenElement) return 1; },  
+ 125031: () => { return Module.canvas.width; },  
+ 125063: () => { return screen.width; },  
+ 125088: () => { document.exitFullscreen(); },  
+ 125115: ($0) => { const canvasId = UTF8ToString($0); setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { document.querySelector(canvasId).style.width="unset"; }, 100); }, 100); },  
+ 125309: () => { return window.innerWidth; },  
+ 125335: () => { return window.innerHeight; },  
+ 125362: () => { if (document.fullscreenElement) return 1; },  
+ 125408: () => { return Module.canvas.width; },  
+ 125440: () => { return parseInt(Module.canvas.style.width); },  
+ 125488: () => { if (document.fullscreenElement) return 1; },  
+ 125534: () => { return Module.canvas.width; },  
+ 125566: () => { return screen.width; },  
+ 125591: () => { return window.innerWidth; },  
+ 125617: () => { return window.innerHeight; },  
+ 125644: () => { if (document.fullscreenElement) return 1; },  
+ 125690: () => { return Module.canvas.width; },  
+ 125722: () => { return screen.width; },  
+ 125747: () => { document.exitFullscreen(); },  
+ 125774: () => { if (document.fullscreenElement) return 1; },  
+ 125820: () => { return Module.canvas.width; },  
+ 125852: () => { return parseInt(Module.canvas.style.width); },  
+ 125900: () => { document.exitFullscreen(); },  
+ 125927: ($0) => { Module.canvas.style.opacity = $0; },  
+ 125965: () => { return screen.width; },  
+ 125990: () => { return screen.height; },  
+ 126016: () => { return window.screenX; },  
+ 126043: () => { return window.screenY; },  
+ 126070: () => { return window.devicePixelRatio; },  
+ 126106: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 126159: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 126210: () => { Module.canvas.style.cursor = 'none'; },  
+ 126247: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 126503: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 126554: () => { if (document.pointerLockElement) return 1; },  
+ 126601: () => { if (document.fullscreenElement) return 1; },  
+ 126647: () => { return window.innerWidth; },  
+ 126673: () => { return window.innerHeight; }
 };
 function genUuid() { return crypto.randomUUID(); }
 function getQueryParam(key) { const k = UTF8ToString(key); const v = new URLSearchParams(window.location.search).get(k); if (v === null) return 0; return stringToNewUTF8(v); }
@@ -9553,12 +9484,12 @@ var __emscripten_stack_restore = makeInvalidEarlyAccess('__emscripten_stack_rest
 var __emscripten_stack_alloc = makeInvalidEarlyAccess('__emscripten_stack_alloc');
 var _emscripten_stack_get_current = makeInvalidEarlyAccess('_emscripten_stack_get_current');
 var dynCall_v = makeInvalidEarlyAccess('dynCall_v');
-var dynCall_ii = makeInvalidEarlyAccess('dynCall_ii');
 var dynCall_vi = makeInvalidEarlyAccess('dynCall_vi');
 var dynCall_vii = makeInvalidEarlyAccess('dynCall_vii');
+var dynCall_ii = makeInvalidEarlyAccess('dynCall_ii');
 var dynCall_iii = makeInvalidEarlyAccess('dynCall_iii');
-var dynCall_viii = makeInvalidEarlyAccess('dynCall_viii');
 var dynCall_iiii = makeInvalidEarlyAccess('dynCall_iiii');
+var dynCall_viii = makeInvalidEarlyAccess('dynCall_viii');
 var dynCall_viff = makeInvalidEarlyAccess('dynCall_viff');
 var dynCall_viiiii = makeInvalidEarlyAccess('dynCall_viiiii');
 var dynCall_viiii = makeInvalidEarlyAccess('dynCall_viiii');
@@ -9598,12 +9529,12 @@ function assignWasmExports(wasmExports) {
   assert(typeof wasmExports['_emscripten_stack_alloc'] != 'undefined', 'missing Wasm export: _emscripten_stack_alloc');
   assert(typeof wasmExports['emscripten_stack_get_current'] != 'undefined', 'missing Wasm export: emscripten_stack_get_current');
   assert(typeof wasmExports['dynCall_v'] != 'undefined', 'missing Wasm export: dynCall_v');
-  assert(typeof wasmExports['dynCall_ii'] != 'undefined', 'missing Wasm export: dynCall_ii');
   assert(typeof wasmExports['dynCall_vi'] != 'undefined', 'missing Wasm export: dynCall_vi');
   assert(typeof wasmExports['dynCall_vii'] != 'undefined', 'missing Wasm export: dynCall_vii');
+  assert(typeof wasmExports['dynCall_ii'] != 'undefined', 'missing Wasm export: dynCall_ii');
   assert(typeof wasmExports['dynCall_iii'] != 'undefined', 'missing Wasm export: dynCall_iii');
-  assert(typeof wasmExports['dynCall_viii'] != 'undefined', 'missing Wasm export: dynCall_viii');
   assert(typeof wasmExports['dynCall_iiii'] != 'undefined', 'missing Wasm export: dynCall_iiii');
+  assert(typeof wasmExports['dynCall_viii'] != 'undefined', 'missing Wasm export: dynCall_viii');
   assert(typeof wasmExports['dynCall_viff'] != 'undefined', 'missing Wasm export: dynCall_viff');
   assert(typeof wasmExports['dynCall_viiiii'] != 'undefined', 'missing Wasm export: dynCall_viiiii');
   assert(typeof wasmExports['dynCall_viiii'] != 'undefined', 'missing Wasm export: dynCall_viiii');
@@ -9640,12 +9571,12 @@ function assignWasmExports(wasmExports) {
   __emscripten_stack_alloc = wasmExports['_emscripten_stack_alloc'];
   _emscripten_stack_get_current = wasmExports['emscripten_stack_get_current'];
   dynCall_v = dynCalls['v'] = createExportWrapper('dynCall_v', 1);
-  dynCall_ii = dynCalls['ii'] = createExportWrapper('dynCall_ii', 2);
   dynCall_vi = dynCalls['vi'] = createExportWrapper('dynCall_vi', 2);
   dynCall_vii = dynCalls['vii'] = createExportWrapper('dynCall_vii', 3);
+  dynCall_ii = dynCalls['ii'] = createExportWrapper('dynCall_ii', 2);
   dynCall_iii = dynCalls['iii'] = createExportWrapper('dynCall_iii', 3);
-  dynCall_viii = dynCalls['viii'] = createExportWrapper('dynCall_viii', 4);
   dynCall_iiii = dynCalls['iiii'] = createExportWrapper('dynCall_iiii', 4);
+  dynCall_viii = dynCalls['viii'] = createExportWrapper('dynCall_viii', 4);
   dynCall_viff = dynCalls['viff'] = createExportWrapper('dynCall_viff', 4);
   dynCall_viiiii = dynCalls['viiiii'] = createExportWrapper('dynCall_viiiii', 6);
   dynCall_viiii = dynCalls['viiii'] = createExportWrapper('dynCall_viiii', 5);
@@ -9678,8 +9609,6 @@ var wasmImports = {
   SetCanvasIdJs,
   /** @export */
   __asyncjs__RequestClipboardData,
-  /** @export */
-  __cxa_throw: ___cxa_throw,
   /** @export */
   __syscall_chdir: ___syscall_chdir,
   /** @export */
